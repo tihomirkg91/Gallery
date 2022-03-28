@@ -1,0 +1,40 @@
+.navbar-user-desktop {
+  font-weight: 800;
+  display: flex;
+  font-size: 2rem;
+  position: absolute;
+  left: 3rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 4rem;
+}
+
+.navbar-user-mobile {
+  font-weight: 800;
+  display: flex;
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  align-items: center;
+  flex-direction: column;
+  height: 4rem;
+  cursor: default;
+}
+
+.navbar-user-none {
+  display: none;
+}
+
+.icon-user {
+  font-size: 1.6rem;
+  margin-bottom: -1rem;
+  margin-top: 0.6rem;
+  height: 100%;
+}
+
+.user-email-text {
+  font-size: 0.8rem;
+  cursor: default;
+}

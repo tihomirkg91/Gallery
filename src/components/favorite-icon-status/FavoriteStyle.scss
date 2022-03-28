@@ -1,0 +1,70 @@
+// sidebar
+.favorite-container {
+  font-weight: 800;
+  display: flex;
+  font-size: 16px;
+  position: absolute;
+  left: 6rem;
+  top: 0rem;
+  align-items: center;
+  flex-direction: column;
+  height: 4rem;
+  font-size: 0.8rem;
+  border-radius: 50%;
+
+  .favorite {
+    font-size: 1.6rem;
+    margin-bottom: -1rem;
+    margin-top: 0.6rem;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+  }
+
+  .favorite-empty {
+    font-size: 1.6rem;
+    margin-bottom: -1rem;
+    margin-top: 0.6rem;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+  }
+  p {
+    cursor: pointer;
+  }
+}
+
+// navbar
+.favorite-container-icon-navbar {
+  font-weight: 800;
+  display: flex;
+  font-size: 16px;
+  position: absolute;
+  left: 9rem;
+  align-items: center;
+  flex-direction: column;
+  height: 4rem;
+  font-size: 0.8rem;
+  border-radius: 50%;
+
+  .favorite-icon-navbar {
+    font-size: 1.6rem;
+    margin-bottom: -1rem;
+    margin-top: 0.6rem;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+  }
+
+  .favorite-empty-icon-navbar {
+    font-size: 1.6rem;
+    margin-bottom: -1rem;
+    margin-top: 0.6rem;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+  }
+  p {
+    cursor: pointer;
+  }
+}

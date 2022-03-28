@@ -1,0 +1,26 @@
+.gallery-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 3rem;
+  overflow-y: hidden;
+  @media (min-width: 721px) {
+    margin-left: 465px;
+  }
+
+  .selected-img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h4 {
+    margin-top: -1.5rem;
+    color: aliceblue;
+    cursor: default;
+  }
+}

@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #fec210;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+
+  .menu-container {
+    margin-left: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    left: 2rem;
+    display: flex;
+    @media (min-width: 721px) {
+      display: none;
+    }
+  }
+
+  .menu-icon {
+    font-size: 1.6rem;
+  }
+
+  .icon-user {
+    font-size: 1.6rem;
+    margin-bottom: -1rem;
+    margin-top: 0.6rem;
+  }
+  .user-email-text {
+    font-size: 0.8rem;
+    cursor: default;
+  }
+  .logout-container {
+    position: absolute;
+    right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+
+    .logout-button {
+      font-size: 1.6rem;
+    }
+    p {
+      font-size: 0.8rem;
+      font-weight: 800;
+    }
+  }
+}
