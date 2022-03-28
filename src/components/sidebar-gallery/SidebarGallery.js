@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 
 // Style
-import SidebarGallerStyle from './SidebarGalleryStyle.scss'
+import SidebarGalleryStyle from './SidebarGalleryStyle.scss'
 import {
   AiOutlineArrowRight,
   AiOutlineArrowLeft,
